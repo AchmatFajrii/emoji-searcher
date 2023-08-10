@@ -1,0 +1,17 @@
+.emojiBox {
+  transition: all 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.selected {
+  transform: rotate(32deg) scale(1.4, 1.4);
+  box-shadow: 5px 10px #888888;
+}
+
+.emoji{
+    font-size: 40px;
+}
+
+.emojiText{
+    font-size: 12px;
+    font-weight: 600;
+}
